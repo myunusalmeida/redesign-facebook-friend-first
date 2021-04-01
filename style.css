@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+
+a:hover {
+    color: #001AFF;
+}
+
+.container {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar-logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.content .title {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.content .subtitle {
+    margin: 20px 26%;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 123.6%;
+}
+
+.content .subtitle span {
+    color: #001AFF;
+}
+
+.content .paragraph {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+.content .socials {
+    margin: 40px 0;
+    display: inline-flex;
+}
+
+.content .socials .social-icon {
+    margin: 0 20px;
+    padding: 12px;
+    width: 60px;
+    height: 60px;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.content .socials .social-icon:hover {
+    background: #001AFF;
+}
